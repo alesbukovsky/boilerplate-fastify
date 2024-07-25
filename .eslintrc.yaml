@@ -1,0 +1,15 @@
+env:
+  es6: true
+  mocha: true
+  node: true
+extends:
+  - standard
+  - plugin:mocha/recommended
+plugins:
+  - chai-friendly
+  - import
+  - mocha
+  - promise
+rules:
+  no-unused-expressions: 0  
+  chai-friendly/no-unused-expressions: 1

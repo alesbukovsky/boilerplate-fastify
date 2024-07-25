@@ -1,0 +1,24 @@
+{
+  "name": "settings-api",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "fastify": "^4.28.0",
+    "pino-pretty": "^11.2.2"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "eslint": "^8",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-chai-friendly": "^1.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-mocha": "^10.4.3",
+    "eslint-plugin-promise": "^6.4.0",
+    "mocha": "^10.6.0"
+  },
+  "scripts": {
+    "lint:js": "eslint \"**/*.js\"",
+    "start": "node src/server.js",
+    "test": "mocha ./test"
+  }
+}
